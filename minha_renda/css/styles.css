@@ -1,0 +1,188 @@
+/* Estilo geral */
+/* Adiciona uma imagem de fundo à página */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+  
+  /* Adiciona uma camada desfocada atrás do conteúdo principal */
+  .background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: blur(8px); /* Aplica o desfoque */
+    z-index: -1; /* Coloca o fundo atrás do conteúdo */
+  }
+
+.container {
+    position: relative;
+    z-index: 1; /* Garante que o conteúdo fique acima do fundo */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco semitransparente para o conteúdo */
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 20px auto; /* Adiciona margem para centralizar e garantir espaço */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra leve para destaque */
+  }
+
+.navbarprin {
+  background-color: rgba(255, 255, 255, 0.8);
+  max-width: 800px;
+  position: relative;
+  margin: 20px auto;
+  box-shadow: 0 0 10px;
+  padding: 20px;
+  width: 100%;
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+}
+
+/* Estiliza o logo */
+.navbar-brand img {
+  max-height: 500px; /* Ajuste a altura máxima do logo */
+}
+
+/* Estiliza as seções principais */
+.main-section {
+  margin-bottom: 30px; /* Adiciona espaçamento entre seções */
+}
+
+.nav-link:hover {
+  color: #007bff; /* Altere a cor ao passar o mouse */
+}
+
+/* Estiliza o rodapé */
+footer {
+  background-color: #657e96; /* Cor de fundo do rodapé */
+  padding: 10px 0;
+}
+  
+  
+  h1 {
+    font-size: 36px;
+    color: #2c3e50; /* Título em tom de azul escuro */
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 20px;
+    background-color: #3498db; /* Fundo azul para o título principal */
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .main-section {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 30px; /* Aumentei o espaçamento entre seções */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+  }
+  
+  .main-section h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #2980b9; /* Títulos das seções em azul */
+  }
+  
+  img {
+    align-items: center;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+  }
+
+  .main-section p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-align: justify; /* Justificar o texto para um visual mais limpo */
+  }
+  
+  footer {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+    border-top: 3px solid #3498db; /* Linha no topo do rodapé */
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  /* Estilos para o Carrossel */
+  .carousel-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px; /* Espaçamento abaixo do carrossel */
+  }
+  
+  .carousel {
+    max-width: 100%;
+    width: 800px;
+    margin-top: 50px;
+    border-radius: 10px; /* Bordas arredondadas no carrossel */
+    overflow: hidden;
+  }
+  
+  .carousel-item img {
+    max-height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .carousel-caption h5 {
+    font-size: 24px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+  }
+  
+  .carousel-caption p {
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 5px;
+    border-radius: 5px;
+    color: #ecf0f1;
+  }
+  
+  /* Estilo de Botões do Carrossel */
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 10px;
+  }
+  
+  .carousel-control-prev-icon:hover,
+  .carousel-control-next-icon:hover {
+    background-color: rgba(0, 0,)
+  }
+
+.nav-link {
+  transition: color 0.3s ease; /* Transição suave para a cor do texto dos links */
+  color: black;
+}
+
+.nav-link:hover {
+  color: #3498db !important; /* Cor do texto dos links quando passar o mouse */
+}
+
+/* Opcional: Ajusta a cor dos itens ativos da navbar */
+.navbar-nav .nav-link.active {
+  color: #2c3e50 !important;
+   /* Cor do texto dos links ativos */
+}
+
+
+
+  
